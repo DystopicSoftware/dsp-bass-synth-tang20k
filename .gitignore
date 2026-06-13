@@ -1,0 +1,15 @@
+# Ignorar carpetas de compilación pesadas de Gowin
+impl/
+*.log
+*.jou
+*.bak
+*.sim
+aldec/
+
+# Ignorar cachés de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos ocultos del sistema operativo
+.DS_Store
+Thumbs.db

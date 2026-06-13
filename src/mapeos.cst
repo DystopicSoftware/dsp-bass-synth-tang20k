@@ -1,0 +1,18 @@
+// Mapeo del reloj principal y UART (Los que ya tenías con éxito)
+IO_LOC "clk" H11;
+IO_PORT "clk" IO_TYPE=LVCMOS33;
+IO_LOC "uart_rx" T13;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33;
+
+// NUEVO: Pines físicos del DAC de Audio PT8121
+IO_LOC "hp_pa_en" R16;
+IO_PORT "hp_pa_en" IO_TYPE=LVCMOS33;
+
+IO_LOC "hp_din" P15;
+IO_PORT "hp_din" IO_TYPE=LVCMOS33;
+
+IO_LOC "hp_ws" P16;
+IO_PORT "hp_ws" IO_TYPE=LVCMOS33;
+
+IO_LOC "hp_bck" N15;
+IO_PORT "hp_bck" IO_TYPE=LVCMOS33;
